@@ -7,7 +7,7 @@ const server = prerender({
   pageLoadTimeout: 1000 * 60 * 5,
   waitAfterLastRequest: 250,
   pageDoneCheckInterval: 1000 * 30,
-  // chromeLocation: '/usr/bin/chromium-browser',
+  chromeLocation: '/usr/bin/chromium-browser',
   chromeFlags: [
     '--headless',
     '--disable-gpu',
